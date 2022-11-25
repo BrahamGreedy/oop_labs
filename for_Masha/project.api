@@ -1,0 +1,8 @@
+#
+!lesson_1.cpp cctype cerrno clocale cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception graphics.h initializer_list ios iosfwd iostream istream keys_n_colors.h limits limits.h locale.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error type_traits typeinfo wchar.h wctype.h #<#>
+Garland _type_ #<lesson_1.cpp>
+Garland(int colour2, int len2) #<lesson_1.cpp>
+main() -> int #<lesson_1.cpp>
+	Garland:%colour : int #<lesson_1.cpp>
+	Garland:%lenght : int #<lesson_1.cpp>
+	Garland::draw(int x0, int y0) -> void #<lesson_1.cpp>

@@ -1,0 +1,35 @@
+#
+!lab2.cpp cctype cerrno clocale cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception initializer_list ios iosfwd iostream istream limits limits.h locale.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error type_traits typeinfo wchar.h wctype.h #<#>
+Length _type_ #<lab2.cpp>
+Length(int, int, int, int) #<lab2.cpp>
+operator!(Length L) -> bool #<lab2.cpp>
+operator!(Length) -> bool #<lab2.cpp>
+operator!=(Length L1, Length L2) -> bool #<lab2.cpp>
+operator!=(Length, Length) -> bool #<lab2.cpp>
+operator(Length L1, Length L2) -> bool #<lab2.cpp>
+operator(Length, Length) -> bool #<lab2.cpp>
+operator*(int z, const Length& L1) -> Length #<lab2.cpp>
+operator*(int, const Length&) -> Length #<lab2.cpp>
+operator+(const Length& L1, const Length& L2) -> Length #<lab2.cpp>
+operator+(const Length&, const Length&) -> Length #<lab2.cpp>
+operator-(const Length& L1, const Length& L2) -> Length #<lab2.cpp>
+operator-(const Length&, const Length&) -> Length #<lab2.cpp>
+operator/(const Length& L1, int z) -> Length #<lab2.cpp>
+operator/(const Length&, int) -> Length #<lab2.cpp>
+operator<< : ostream& #<lab2.cpp>
+operator==(Length L1, Length L2) -> bool #<lab2.cpp>
+operator==(Length, Length) -> bool #<lab2.cpp>
+operator>(Length L1, Length L2) -> bool #<lab2.cpp>
+operator>(Length, Length) -> bool #<lab2.cpp>
+operator>=(Length L1, Length L2) -> bool #<lab2.cpp>
+operator>=(Length, Length) -> bool #<lab2.cpp>
+operator>> : istream& #<lab2.cpp>
+	Length:%inch : int #<lab2.cpp>
+	Length::getMile() -> int #<lab2.cpp>
+	Length::getYard() -> int #<lab2.cpp>
+	Length::getFoot() -> int #<lab2.cpp>
+	Length::getInch() -> int #<lab2.cpp>
+	Length::operator+=(const Length&) -> Length& #<lab2.cpp>
+	Length::operator-=(const Length&) -> Length& #<lab2.cpp>
+	Length::operator*=(int) -> Length& #<lab2.cpp>
+	Length::operator/=(int) -> Length& #<lab2.cpp>

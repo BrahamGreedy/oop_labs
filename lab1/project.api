@@ -1,0 +1,15 @@
+#
+!lab1_oop.cpp cctype cerrno clocale cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception initializer_list ios iosfwd iostream istream limits limits.h locale.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error type_traits typeinfo utility vector wchar.h wctype.h #<#>
+CDCollection _type_ #<lab1_oop.cpp>
+CDCollection(int nPerson, int nCD) #<lab1_oop.cpp>
+main() -> int #<lab1_oop.cpp>
+	CDCollection:%n_Person : int #<lab1_oop.cpp>
+	CDCollection:%n_CD : int #<lab1_oop.cpp>
+	CDCollection:%k : int #<lab1_oop.cpp>
+	CDCollection:%CD_info : vector #<lab1_oop.cpp>
+	CDCollection::add(const string& CDname, int idPerson) -> void #<lab1_oop.cpp>
+	CDCollection::tranfer(const string& CDname, int idPerson) -> void #<lab1_oop.cpp>
+	CDCollection::where(const string& CDname) -> int #<lab1_oop.cpp>
+	CDCollection::amount(int idPerson) -> int #<lab1_oop.cpp>
+	CDCollection::nameCD(int idPerson, int i) -> const string& #<lab1_oop.cpp>
+	CDCollection::print() -> void #<lab1_oop.cpp>

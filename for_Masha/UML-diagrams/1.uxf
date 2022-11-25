@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0-XS">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>120</x>
+      <y>60</y>
+      <w>220</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>Cat
+-
+name:string
+age:int
+colour:string
+owner:string
+-
++set_name(string name2):void
++set_age
++set_colour
++set_owner
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>500</x>
+      <y>60</y>
+      <w>230</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Garland
+-
+colour:int
+lenght:int
+-
++set_colour(int colour2):void
++set_lenght(int len2):void
++get_colour():int
++get_lenght():int
++draw(int x0, int y0):void</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
