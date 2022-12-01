@@ -1,29 +1,36 @@
 #
+!15Nikitin_ET212.cpp cctype cerrno clocale cmath cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception initializer_list ios iosfwd iostream istream limits limits.h locale.h math.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error type_traits typeinfo wchar.h wctype.h #<#>
 !lab2.cpp cctype cerrno clocale cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception initializer_list ios iosfwd iostream istream limits limits.h locale.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error type_traits typeinfo wchar.h wctype.h #<#>
 Length _type_ #<lab2.cpp>
 Length(int, int, int, int) #<lab2.cpp>
-operator!(Length L) -> bool #<lab2.cpp>
-operator!(Length) -> bool #<lab2.cpp>
-operator!=(Length L1, Length L2) -> bool #<lab2.cpp>
-operator!=(Length, Length) -> bool #<lab2.cpp>
-operator(Length L1, Length L2) -> bool #<lab2.cpp>
-operator(Length, Length) -> bool #<lab2.cpp>
-operator*(int z, const Length& L1) -> Length #<lab2.cpp>
-operator*(int, const Length&) -> Length #<lab2.cpp>
-operator+(const Length& L1, const Length& L2) -> Length #<lab2.cpp>
-operator+(const Length&, const Length&) -> Length #<lab2.cpp>
-operator-(const Length& L1, const Length& L2) -> Length #<lab2.cpp>
-operator-(const Length&, const Length&) -> Length #<lab2.cpp>
-operator/(const Length& L1, int z) -> Length #<lab2.cpp>
-operator/(const Length&, int) -> Length #<lab2.cpp>
-operator<< : ostream& #<lab2.cpp>
-operator==(Length L1, Length L2) -> bool #<lab2.cpp>
-operator==(Length, Length) -> bool #<lab2.cpp>
-operator>(Length L1, Length L2) -> bool #<lab2.cpp>
-operator>(Length, Length) -> bool #<lab2.cpp>
-operator>=(Length L1, Length L2) -> bool #<lab2.cpp>
-operator>=(Length, Length) -> bool #<lab2.cpp>
-operator>> : istream& #<lab2.cpp>
+Polar _type_ #<15Nikitin_ET212.cpp>
+Polar(double=1, double=0) #<15Nikitin_ET212.cpp>
+TO_GR #<15Nikitin_ET212.cpp>
+main() -> int #<15Nikitin_ET212.cpp>
+operator!(const Length& L) -> bool #<lab2.cpp>
+operator!(const Length&) -> bool #<lab2.cpp>
+operator!=(const Length& L1, const Length& L2) -> bool #<lab2.cpp>
+operator!=(const Length&, const Length&) -> bool #<lab2.cpp>
+operator!=(const Polar& v1, const Polar& v2) -> bool #<15Nikitin_ET212.cpp>
+operator!=(const Polar&, const Polar&) -> bool #<15Nikitin_ET212.cpp>
+operator(const Length& L1, const Length& L2) -> bool #<lab2.cpp>
+operator(const Length&, const Length&) -> bool #<lab2.cpp>
+operator*(int z, Length& L2) -> Length #<lab2.cpp>
+operator+(Length& L1, Length& L2) -> Length #<lab2.cpp>
+operator+(Polar& p1, Polar& p2) -> Polar #<15Nikitin_ET212.cpp>
+operator-(Length& L1, Length& L2) -> Length #<lab2.cpp>
+operator-(Polar& p1, Polar& p2) -> Polar #<15Nikitin_ET212.cpp>
+operator/(Length& L1, int z) -> Length #<lab2.cpp>
+operator<< : ostream& #<15Nikitin_ET212.cpp>
+operator==(const Length& L1, const Length& L2) -> bool #<lab2.cpp>
+operator==(const Length&, const Length&) -> bool #<lab2.cpp>
+operator==(const Polar& v1, const Polar& v2) -> bool #<15Nikitin_ET212.cpp>
+operator==(const Polar&, const Polar&) -> bool #<15Nikitin_ET212.cpp>
+operator>(const Length& L1, const Length& L2) -> bool #<lab2.cpp>
+operator>(const Length&, const Length&) -> bool #<lab2.cpp>
+operator>=(const Length& L1, const Length& L2) -> bool #<lab2.cpp>
+operator>=(const Length&, const Length&) -> bool #<lab2.cpp>
+operator>> : istream& #<15Nikitin_ET212.cpp>
 	Length:%inch : int #<lab2.cpp>
 	Length::getMile() -> int #<lab2.cpp>
 	Length::getYard() -> int #<lab2.cpp>
@@ -33,3 +40,13 @@ operator>> : istream& #<lab2.cpp>
 	Length::operator-=(const Length&) -> Length& #<lab2.cpp>
 	Length::operator*=(int) -> Length& #<lab2.cpp>
 	Length::operator/=(int) -> Length& #<lab2.cpp>
+	Polar:%r : double #<15Nikitin_ET212.cpp>
+	Polar:%phi : double #<15Nikitin_ET212.cpp>
+	Polar::operator+=(double) -> Polar& #<15Nikitin_ET212.cpp>
+	Polar::operator-=(double) -> Polar& #<15Nikitin_ET212.cpp>
+	Polar::operator*=(double) -> Polar& #<15Nikitin_ET212.cpp>
+	Polar::operator/=(double) -> Polar& #<15Nikitin_ET212.cpp>
+	Polar::recur_angle(double) -> double #<15Nikitin_ET212.cpp>
+	Polar=:operator!() -> bool #<15Nikitin_ET212.cpp>
+	Polar=:getLength() -> double #<15Nikitin_ET212.cpp>
+	Polar=:getAngle() -> double #<15Nikitin_ET212.cpp>

@@ -5,6 +5,8 @@ Boublik(int c, int x, int y, int r1, int r2) #<3lab.cpp>
 Figure _type_ #<3lab.cpp>
 Figure() -> virtual~ #<3lab.cpp>
 Figure(int c, int x, int y) #<3lab.cpp>
+FillBoublik _type_ #<3lab.cpp>
+FillBoublik(int c, int x, int y, int r1, int r2, int fc) #<3lab.cpp>
 main() -> int #<3lab.cpp>
 	Boublik:%r1 : int #<3lab.cpp>
 	Boublik:%r2 : int #<3lab.cpp>
@@ -33,3 +35,20 @@ main() -> int #<3lab.cpp>
 	Figure=:getcolor() -> int #<3lab.cpp>
 	Figure=:isvisible() -> bool #<3lab.cpp>
 	Figure=:area(int& x1, int& y1, int& x2, int& y2) -> virtual void #<3lab.cpp>
+	FillBoublik:%fc : int #<3lab.cpp>
+	FillBoublik:%draw() -> void #<3lab.cpp>
+	FillBoublik:%r1 : int #<3lab.cpp>
+	FillBoublik:%r2 : int #<3lab.cpp>
+	FillBoublik:%x : int #<3lab.cpp>
+	FillBoublik:%y : int #<3lab.cpp>
+	FillBoublik:%draw() -> virtual void #<3lab.cpp>
+	FillBoublik::setfillcolor(int) -> void #<3lab.cpp>
+	FillBoublik::setsizes(int r_1, int r_2) -> void #<3lab.cpp>
+	FillBoublik::move(int x, int y) -> void #<3lab.cpp>
+	FillBoublik::setcolor(int c) -> void #<3lab.cpp>
+	FillBoublik::hide() -> void #<3lab.cpp>
+	FillBoublik::show() -> void #<3lab.cpp>
+	FillBoublik=:area(int& x1, int& y1, int& x2, int& y2) -> void #<3lab.cpp>
+	FillBoublik=:getcolor() -> int #<3lab.cpp>
+	FillBoublik=:isvisible() -> bool #<3lab.cpp>
+	FillBoublik=:area(int& x1, int& y1, int& x2, int& y2) -> virtual void #<3lab.cpp>
