@@ -1,54 +1,103 @@
 #
-!3lab.cpp cctype cerrno clocale cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception graphics.h initializer_list ios iosfwd iostream istream keys_n_colors.h limits limits.h locale.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error type_traits typeinfo wchar.h wctype.h #<#>
-Boublik _type_ #<3lab.cpp>
-Boublik(int c, int x, int y, int r1, int r2) #<3lab.cpp>
-Figure _type_ #<3lab.cpp>
-Figure() -> virtual~ #<3lab.cpp>
-Figure(int c, int x, int y) #<3lab.cpp>
-FillBoublik _type_ #<3lab.cpp>
-FillBoublik(int c, int x, int y, int r1, int r2, int fc) #<3lab.cpp>
-main() -> int #<3lab.cpp>
-	Boublik:%r1 : int #<3lab.cpp>
-	Boublik:%r2 : int #<3lab.cpp>
-	Boublik:%draw() -> void #<3lab.cpp>
-	Boublik:%x : int #<3lab.cpp>
-	Boublik:%y : int #<3lab.cpp>
-	Boublik:%draw() -> virtual void #<3lab.cpp>
-	Boublik::setsizes(int r_1, int r_2) -> void #<3lab.cpp>
-	Boublik::move(int x, int y) -> void #<3lab.cpp>
-	Boublik::setcolor(int c) -> void #<3lab.cpp>
-	Boublik::hide() -> void #<3lab.cpp>
-	Boublik::show() -> void #<3lab.cpp>
-	Boublik=:area(int& x1, int& y1, int& x2, int& y2) -> void #<3lab.cpp>
-	Boublik=:getcolor() -> int #<3lab.cpp>
-	Boublik=:isvisible() -> bool #<3lab.cpp>
-	Boublik=:area(int& x1, int& y1, int& x2, int& y2) -> virtual void #<3lab.cpp>
-	Figure:%c : int #<3lab.cpp>
-	Figure:%visible : bool #<3lab.cpp>
-	Figure:%x : int #<3lab.cpp>
-	Figure:%y : int #<3lab.cpp>
-	Figure:%draw() -> virtual void #<3lab.cpp>
-	Figure::move(int x, int y) -> void #<3lab.cpp>
-	Figure::setcolor(int c) -> void #<3lab.cpp>
-	Figure::hide() -> void #<3lab.cpp>
-	Figure::show() -> void #<3lab.cpp>
-	Figure=:getcolor() -> int #<3lab.cpp>
-	Figure=:isvisible() -> bool #<3lab.cpp>
-	Figure=:area(int& x1, int& y1, int& x2, int& y2) -> virtual void #<3lab.cpp>
-	FillBoublik:%fc : int #<3lab.cpp>
-	FillBoublik:%draw() -> void #<3lab.cpp>
-	FillBoublik:%r1 : int #<3lab.cpp>
-	FillBoublik:%r2 : int #<3lab.cpp>
-	FillBoublik:%x : int #<3lab.cpp>
-	FillBoublik:%y : int #<3lab.cpp>
-	FillBoublik:%draw() -> virtual void #<3lab.cpp>
-	FillBoublik::setfillcolor(int) -> void #<3lab.cpp>
-	FillBoublik::setsizes(int r_1, int r_2) -> void #<3lab.cpp>
-	FillBoublik::move(int x, int y) -> void #<3lab.cpp>
-	FillBoublik::setcolor(int c) -> void #<3lab.cpp>
-	FillBoublik::hide() -> void #<3lab.cpp>
-	FillBoublik::show() -> void #<3lab.cpp>
-	FillBoublik=:area(int& x1, int& y1, int& x2, int& y2) -> void #<3lab.cpp>
-	FillBoublik=:getcolor() -> int #<3lab.cpp>
-	FillBoublik=:isvisible() -> bool #<3lab.cpp>
-	FillBoublik=:area(int& x1, int& y1, int& x2, int& y2) -> virtual void #<3lab.cpp>
+!lab3.cpp cctype cerrno clocale cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception graphics.h initializer_list ios iosfwd iostream istream keys_n_colors.h limits limits.h locale.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error type_traits typeinfo wchar.h wctype.h #<#>
+!main.cpp algorithm cctype cerrno clocale conio.h cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception graphics.h initializer_list ios iosfwd iostream istream keys_n_colors.h limits limits.h locale.h math.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error time.h type_traits typeinfo utility wchar.h wctype.h #<#>
+Boublik _type_ #<lab3.cpp>
+Boublik() -> virtual~ #<lab3.cpp>
+Boublik(int col, int x_, int y_, int r_1, int r_2) #<lab3.cpp>
+Figure _type_ #<lab3.cpp>
+Figure() -> virtual~ #<lab3.cpp>
+Figure(int c, int x, int y) #<main.cpp>
+Figure(int col, int x_, int y_) #<lab3.cpp>
+FillBoublik _type_ #<lab3.cpp>
+FillBoublik(int col, int x_, int y_, int r_1, int r_2, int fillcol) #<lab3.cpp>
+FillSquare34 _type_ #<main.cpp>
+FillSquare34(int c, int x, int y, int length, int N, int fillColor) #<main.cpp>
+Square34 _type_ #<main.cpp>
+Square34(int c, int x, int y, int length, int N) #<main.cpp>
+main() -> int #<lab3.cpp>
+	Boublik:%r1 : int #<lab3.cpp>
+	Boublik:%r2 : int #<lab3.cpp>
+	Boublik:%draw() -> void #<lab3.cpp>
+	Boublik:%x : int #<lab3.cpp>
+	Boublik:%y : int #<lab3.cpp>
+	Boublik:%draw() -> virtual void #<lab3.cpp>
+	Boublik::setsizes(int r_1, int r_2) -> void #<lab3.cpp>
+	Boublik::move(int x2, int y2) -> void #<lab3.cpp>
+	Boublik::setcolor(int col) -> void #<lab3.cpp>
+	Boublik::hide() -> void #<lab3.cpp>
+	Boublik::show() -> void #<lab3.cpp>
+	Boublik::move(int x, int y) -> void #<lab3.cpp>
+	Boublik::setcolor(int c) -> void #<lab3.cpp>
+	Boublik=:area(int& x1, int& y1, int& x2, int& y2) -> void #<lab3.cpp>
+	Boublik=:getcolor() -> int #<lab3.cpp>
+	Boublik=:isvisible() -> bool #<lab3.cpp>
+	Boublik=:area(int& x1, int& y1, int& x2, int& y2) -> virtual void #<lab3.cpp>
+	Figure:%c : int #<main.cpp>
+	Figure:%visible : bool #<main.cpp>
+	Figure:%x : int #<main.cpp>
+	Figure:%y : int #<main.cpp>
+	Figure:%draw() -> virtual void #<main.cpp>
+	Figure::move(int x2, int y2) -> void #<main.cpp>
+	Figure::setcolor(int col) -> void #<main.cpp>
+	Figure::hide() -> void #<main.cpp>
+	Figure::show() -> void #<main.cpp>
+	Figure::move(int x, int y) -> void #<main.cpp>
+	Figure::setcolor(int c) -> void #<main.cpp>
+	Figure=:getcolor() -> int #<main.cpp>
+	Figure=:isvisible() -> bool #<main.cpp>
+	Figure=:area(int& x1, int& y1, int& x2, int& y2) -> virtual void #<main.cpp>
+	FillBoublik:%fc : int #<lab3.cpp>
+	FillBoublik:%draw() -> void #<lab3.cpp>
+	FillBoublik:%r1 : int #<lab3.cpp>
+	FillBoublik:%r2 : int #<lab3.cpp>
+	FillBoublik:%x : int #<lab3.cpp>
+	FillBoublik:%y : int #<lab3.cpp>
+	FillBoublik:%draw() -> virtual void #<lab3.cpp>
+	FillBoublik::setfillcolor(int fillcol) -> void #<lab3.cpp>
+	FillBoublik::setsizes(int r_1, int r_2) -> void #<lab3.cpp>
+	FillBoublik::move(int x2, int y2) -> void #<lab3.cpp>
+	FillBoublik::setcolor(int col) -> void #<lab3.cpp>
+	FillBoublik::hide() -> void #<lab3.cpp>
+	FillBoublik::show() -> void #<lab3.cpp>
+	FillBoublik::move(int x, int y) -> void #<lab3.cpp>
+	FillBoublik::setcolor(int c) -> void #<lab3.cpp>
+	FillBoublik=:area(int& x1, int& y1, int& x2, int& y2) -> void #<lab3.cpp>
+	FillBoublik=:getcolor() -> int #<lab3.cpp>
+	FillBoublik=:isvisible() -> bool #<lab3.cpp>
+	FillBoublik=:area(int& x1, int& y1, int& x2, int& y2) -> virtual void #<lab3.cpp>
+	FillSquare34:%fillColor : int #<main.cpp>
+	FillSquare34:%draw() -> void #<main.cpp>
+	FillSquare34:%length : int #<main.cpp>
+	FillSquare34:%N : int #<main.cpp>
+	FillSquare34:%x : int #<main.cpp>
+	FillSquare34:%y : int #<main.cpp>
+	FillSquare34:%draw() -> virtual void #<main.cpp>
+	FillSquare34::setfillcolor(int c) -> void #<main.cpp>
+	FillSquare34::setsizes(int length) -> void #<main.cpp>
+	FillSquare34::move(int x2, int y2) -> void #<main.cpp>
+	FillSquare34::setcolor(int col) -> void #<main.cpp>
+	FillSquare34::hide() -> void #<main.cpp>
+	FillSquare34::show() -> void #<main.cpp>
+	FillSquare34::move(int x, int y) -> void #<main.cpp>
+	FillSquare34::setcolor(int c) -> void #<main.cpp>
+	FillSquare34=:area(int& x1, int& y1, int& x2, int& y2) -> void #<main.cpp>
+	FillSquare34=:getcolor() -> int #<main.cpp>
+	FillSquare34=:isvisible() -> bool #<main.cpp>
+	FillSquare34=:area(int& x1, int& y1, int& x2, int& y2) -> virtual void #<main.cpp>
+	Square34:%length : int #<main.cpp>
+	Square34:%N : int #<main.cpp>
+	Square34:%draw() -> void #<main.cpp>
+	Square34:%x : int #<main.cpp>
+	Square34:%y : int #<main.cpp>
+	Square34:%draw() -> virtual void #<main.cpp>
+	Square34::setsizes(int length) -> void #<main.cpp>
+	Square34::move(int x2, int y2) -> void #<main.cpp>
+	Square34::setcolor(int col) -> void #<main.cpp>
+	Square34::hide() -> void #<main.cpp>
+	Square34::show() -> void #<main.cpp>
+	Square34::move(int x, int y) -> void #<main.cpp>
+	Square34::setcolor(int c) -> void #<main.cpp>
+	Square34=:area(int& x1, int& y1, int& x2, int& y2) -> void #<main.cpp>
+	Square34=:getcolor() -> int #<main.cpp>
+	Square34=:isvisible() -> bool #<main.cpp>
+	Square34=:area(int& x1, int& y1, int& x2, int& y2) -> virtual void #<main.cpp>
