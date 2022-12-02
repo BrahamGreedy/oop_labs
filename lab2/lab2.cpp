@@ -133,7 +133,7 @@ istream& operator>>(istream &i, Length &L){
 }
 
 ostream& operator<<(ostream &o, const Length &L){
-   return o<<L.getMile()<<"m "<<L.getYard()<<"y "<<L.getFoot()<<"f "<<L.getInch()<<"i";
+   return o<<L.inch/(1760*36)<<"m "<<(L.inch/(3*12))%1760<<"y "<<(L.inch/12)%3<<"f "<<L.inch%12<<"i";
 }
 
 int main(){

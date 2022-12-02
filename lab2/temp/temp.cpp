@@ -133,4 +133,4 @@ istream& operator>>(istream &i, Length &L){
 }
 
 ostream& operator<<(ostream &o, const Length &L){
-   return o<<_abracadabra_cast(L);
+   return o<<L.inch/(1760*36)<<"m "<<(L.inch/(3*12))%1760<<"y "<<(L.inch/12)%3<<"f "<<_abracadabra_cast(L);

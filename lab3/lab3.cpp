@@ -8,8 +8,8 @@ protected:
    int x, y; // базовая точка
    virtual void draw()=0; //нарисовать
 public:
-   Figure(int col, int x_, int y_):c(col), visible(0), x(x_), y(y_) {}
-   virtual ~Figure() {}
+   Figure(int col, int x, int y):c(col), visible(0), x(x), y(y) {}
+   ~Figure() {}
    void move(int x2, int y2); //сместить фигуру в (x2,y2)
    void setcolor(int col); // установить цвет фигуры, видимая рисуется, у невидимой меняется цвет
    int getcolor() const {return c;} //получить цвет
@@ -25,7 +25,7 @@ protected:
    void draw();
 public:
    Boublik(int col, int x_, int y_, int r_1, int r_2): Figure(col, x_, y_), r1(r_1), r2(r_2) {}
-   virtual ~Boublik() {hide();}
+   ~Boublik() {hide();}
    void setsizes(int r_1, int r_2); //изменение внутренного и внешнего радиуса бублика
    void area(int &x1, int &y1, int &x2, int &y2) const; //область, где нарисована фигура
 };

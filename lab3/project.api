@@ -2,12 +2,11 @@
 !lab3.cpp cctype cerrno clocale cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception graphics.h initializer_list ios iosfwd iostream istream keys_n_colors.h limits limits.h locale.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error type_traits typeinfo wchar.h wctype.h #<#>
 !main.cpp algorithm cctype cerrno clocale conio.h cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception graphics.h initializer_list ios iosfwd iostream istream keys_n_colors.h limits limits.h locale.h math.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error time.h type_traits typeinfo utility wchar.h wctype.h #<#>
 Boublik _type_ #<lab3.cpp>
-Boublik() -> virtual~ #<lab3.cpp>
 Boublik(int col, int x_, int y_, int r_1, int r_2) #<lab3.cpp>
 Figure _type_ #<lab3.cpp>
-Figure() -> virtual~ #<lab3.cpp>
+Figure() -> virtual~ #<main.cpp>
 Figure(int c, int x, int y) #<main.cpp>
-Figure(int col, int x_, int y_) #<lab3.cpp>
+Figure(int col, int x, int y) #<lab3.cpp>
 FillBoublik _type_ #<lab3.cpp>
 FillBoublik(int col, int x_, int y_, int r_1, int r_2, int fillcol) #<lab3.cpp>
 FillSquare34 _type_ #<main.cpp>
